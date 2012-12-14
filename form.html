@@ -339,8 +339,7 @@
 										"entry_62">J'ai une comp&eacute;tence particuli&egrave;re :</label>
 
 									<textarea name="entry.62.single" rows="8" cols="75" class=
-										"ss-q-long" id="entry_62">
-								</textarea></div>
+										"ss-q-long" id="entry_62"></textarea></div>
 							</div>
 						</div>
 						<br></div>
@@ -348,7 +347,7 @@
 					"hidden" name="backupCache" value="">
 					<div class="ss-item ss-navigate">
 						<div class="ss-form-entry"><input type="submit" name="continue"
-							value="Continue &raquo;"></div>
+							value="Envoyer"></div>
 					</div>
 				</form>
 				<script type="text/javascript">
@@ -418,11 +417,6 @@
 				        .replace(/</g, "")
 				        .replace(/>/g, "")
 				        .replace(/"/g, "");
-						/*.replace(/&/g, "&amp;")
-				        .replace(/</g, "&lt;")
-				        .replace(/>/g, "&gt;")
-				        .replace(/"/g, "&quot;")
-				        .replace(/'/g, "&#039;");*/
 	} 
 	// Fonctions de vérification du formulaire, elles renvoient « true » si tout est OK
 
@@ -509,13 +503,12 @@
 		radio.className = 'correct';
         tooltipStyle.display = 'none';
         if(id=="benevole_1"){
-        	document.getElementById('partie_benevole').style.display="inline-block";
+			document.getElementById('partie_benevole').style.display="inline-block";
         }
         if(id=="benevole_2"){
-        	document.getElementById('partie_benevole').style.display="none";
+			document.getElementById('partie_benevole').style.display="none";
         }
     }
-
 
     //partie benevole
     check_benevole['lastNameContact'] = check['lastName'];
