@@ -77,11 +77,7 @@
 			}
 			#partie_benevole{
 				display: none;
-				margin:0px;
-				padding:0px;
-			}
-			#partie_benevole .ss-q-title{
-				margin-right: 16px;
+				width: 45em;
 			}
 			form.registration select{
                 font-family: "Trebuchet MS";
@@ -637,7 +633,7 @@ Si vous ne savez pas comment faire <a href="http://www.maboite.qc.ca/activation_
                             (arr[5].innerHTML=="6"));
                     });
                     if(res){
-                    	$('ss-form').action="https://docs.google.com/spreadsheet/formResponse?formkey=dGFmRUIwSFhleUVLcU5Fd3I3Qm1KX3c6MA&amp;theme=0AX42CRMsmRFbUy04NmYzYTk2OC1hYzhjLTQ1NTAtOTRiNS0zZWI4YWM2MmI4Njk&amp;ifq";
+                    	$('#ss-form').attr("action","https://docs.google.com/spreadsheet/formResponse?formkey=dGFmRUIwSFhleUVLcU5Fd3I3Qm1KX3c6MA&amp;theme=0AX42CRMsmRFbUy04NmYzYTk2OC1hYzhjLTQ1NTAtOTRiNS0zZWI4YWM2MmI4Njk&amp;ifq");
                     }
                     return res;
                 }
