@@ -2,6 +2,23 @@ TODO
 ====
 
  * Faire en sorte qu'on ai pas besoin de passer par plusieur pages pour envoyer le formulaire
- * Mise en forme 
+ * Mise en forme
+ * Fonction de test de chaine non vide.
+
+
+Done
+====
+
  * Nettoyer l'indentation
+
+Remarques
+=========
+
+J'ai modifié le formualaire google pour qu'il soit sur une seule page. Le but �tant d'éviter de passer sur plusieurs page google avant de soumettre le formulaire. 
+
+=> Bug, les données ne sont plus insérées dans le formulaire. Je ne sais pas pourquoi. 
+
+Deuxi�mement, pour que la remarque précédente soit possible, j'ai mis les champs qui étaient dans la deuxième page comme étant optionnels coté google. Mais ils restent obligatoire coté formulai
+Il faudra donc faire des fonction de test de chaine non vide.
+
 
