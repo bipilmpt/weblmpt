@@ -406,11 +406,8 @@
 							</div>
 						</div>
 						<br></div>
-					<input type="hidden" name="pageNumber" value="0"> <input type=
+					<input type="hidden" name="pageNumber" value="1"> <input type=
 					"hidden" name="backupCache" value="">
-
-					<input type="hidden" name="pageNumber" value="0">
-					<input type="hidden" name="backupCache" value="">
 <fieldset>
                 <legend>V&eacute;rification</legend>
                 <div class="captcha_wrap">
@@ -427,7 +424,7 @@
                     </ul>
                 </div>
                 <div class="ss-item ss-navigate"><div class="ss-form-entry" id="ss-form-entry">
-                	<input type="submit" id="continue" name="continue" value="Continue &raquo;">
+                	<input type="submit" id="continue" name="submit" value="Envoyer">
 							</div></div>
             </fieldset>
 
@@ -733,7 +730,7 @@
                             (arr[5].innerHTML=="6"));
                     });
                     if(res){
-                    	$('#ss-form').attr("action","https://docs.google.com/spreadsheet/formResponse?formkey=dGFmRUIwSFhleUVLcU5Fd3I3Qm1KX3c6MA&amp;theme=0AX42CRMsmRFbUy04NmYzYTk2OC1hYzhjLTQ1NTAtOTRiNS0zZWI4YWM2MmI4Njk&amp;ifq");
+                    	$('#ss-form').attr("action","https://docs.google.com/spreadsheet/formResponse?formkey=dGFmRUIwSFhleUVLcU5Fd3I3Qm1KX3c6MA&theme=0AX42CRMsmRFbUy04NmYzYTk2OC1hYzhjLTQ1NTAtOTRiNS0zZWI4YWM2MmI4Njk&ifq");
                     }
                     return res;
                 }
